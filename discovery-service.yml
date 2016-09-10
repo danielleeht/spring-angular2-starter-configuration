@@ -12,7 +12,7 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 0
 # LOGGING
-#logging.level.org.springframework.security: DEBUG
+logging.level.org.springframework.security: DEBUG
 
 ---
 
