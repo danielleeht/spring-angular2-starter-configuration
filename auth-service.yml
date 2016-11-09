@@ -39,6 +39,11 @@ eureka:
 
 spring:
   profiles: standalone
+  datasource:
+          url: jdbc:mysql://localhost:3306/zhuoyue_auth
+          username: zhuoyue
+          password: zhuoyue
+          initialize: false
 
 # EUREKA
 eureka:
